@@ -87,16 +87,15 @@
         });
 
         reset.addEventListener('click', () => {
-    document.querySelectorAll(".boxtext").forEach(element => element.innerText = "");
-    turn = "X";
-    isgameover = false;
+            document.querySelectorAll(".boxtext").forEach(element => element.innerText = "");
+            turn = "X";
+            isgameover = false;
 
-    document.querySelector(".info").innerText = "Turn for " + turn;
+            document.querySelector(".info").innerText = "turn for " + turn;
 
-    // Fix: Access the first element of the NodeList
-    document.querySelector(".image").getElementsByTagName("img")[0].style.width = "0px";
-});
+            document.querySelector(".image").getElementsByTagName("img")[0].style.width = "0px";
 
+        })
 
     </script>
 </body>
