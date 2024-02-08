@@ -47,12 +47,17 @@ nav ul {
     background-color: rgb(176, 235, 176);
 }
 
+.info{
+    font-size: 22px;
+}
+
 .gameinfo {
     padding: 0 34px;
 }
 
 .image img {
-    display: none;
+    width: 0;
+    transition: 1s ease-in-out;
 }
 
 .br-0 {
@@ -69,4 +74,12 @@ nav ul {
 
 .bb-0 {
     border-bottom: 0;
+}
+
+#reset{
+    margin: 0 30px;
+    padding: 6px 14px;
+    background: #fae5fa;
+    border-radius: 7px;
+    cursor: pointer;
 }
