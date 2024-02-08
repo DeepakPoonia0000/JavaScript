@@ -1,12 +1,12 @@
 let a=4+5;
 let b="deepak";
-let c = document.getElementById("one").innerHTML ="<b>how are you</b>";
+let c = document.getElementById("one1").innerHTML ="<b>how are you</b>";
 {
 for(var j=0;j<=2;j++){
     document.write(c+"<br>");
 }
 }
-document.querySelector(".scr1").innerHTML = "how are you " + a;
+let d=document.querySelector(".scr").innerHTML = "how are you " + a;
 console.log("deepak poonia" , 6+7);
 // window.alert("hii how are you");
 console.log(typeof a );
